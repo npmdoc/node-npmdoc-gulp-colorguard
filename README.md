@@ -1,4 +1,7 @@
-# api documentation for  [gulp-colorguard (v1.1.0)](https://github.com/pgilad/gulp-colorguard)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-colorguard.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-colorguard) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-colorguard.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-colorguard)
+# npmdoc-gulp-colorguard
+
+#### api documentation for  [gulp-colorguard (v1.1.0)](https://github.com/pgilad/gulp-colorguard)  [![npm package](https://img.shields.io/npm/v/npmdoc-gulp-colorguard.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-gulp-colorguard) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-gulp-colorguard.svg)](https://travis-ci.org/npmdoc/node-npmdoc-gulp-colorguard)
+
 #### Keep a watchful eye on your css colors
 
 [![NPM](https://nodei.co/npm/gulp-colorguard.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/gulp-colorguard)
@@ -76,7 +79,8 @@
         "test": "mocha -R spec ./tests/*.js",
         "watch": "mocha -R spec -w ./tests/*.js"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
