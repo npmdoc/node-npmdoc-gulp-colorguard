@@ -63,15 +63,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.gulp-colorguard.toString">
-            function <span class="apidocSignatureSpan">gulp-colorguard.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -125,37 +116,6 @@
     });
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.gulp-colorguard.toString" id="apidoc.element.gulp-colorguard.toString">
-        function <span class="apidocSignatureSpan">gulp-colorguard.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-}
-if (file.isStream()) {
-    cb(new PluginError(pluginName, 'Streaming not supported'));
-    return;
-}
-var results;
-try {
-    results = colorguard.inspect(file.contents.<span class="apidocCodeKeywordSpan">toString</span>(), options);
-} catch (err) {
-    err.message = pluginName + ': ' + err.message;
-    cb(new PluginError(pluginName, err));
-    return;
-}
-
-if (!results || !results.collisions) {
-...</pre></li>
     </ul>
 
 
